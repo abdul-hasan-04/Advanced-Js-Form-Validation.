@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link fontawesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Advanced Form Validation Project || js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="myform">
+            <div class="header">
+                <h2>Registration Form <span>.</span></h2>
+                <i class="fa-solid fa-user-plus"></i>
+            </div>
+            <div class="input-control">
+                <label for="username">Name</label>
+                <input type="text" name="username" id="username">
+                <div class="error-container hide">
+                    <div class="error"></div>
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                <div class="error-container hide">
+                    <div class="error"></div>
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+            </div>
+            <div class="input-control">
+                <label for="Password">Password</label>
+                <input type="password" name="password" id="password">
+                <div class="error-container hide">
+                    <div class="error"></div>
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+            </div>
+            <div class="input-control">
+                <label for="cofirm">Confirm Password</label>
+                <input type="password" name="confirm" id="confirm">
+                <div class="error-container hide">
+                    <div class="error"></div>
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+            </div>
+            <p class="succesMEssage"></p>
+            <button type="submit">Sign up</button>
+        </form>
+    </div>
+    <script src="/DOM/main.js"></script>
+</body>
+
+</html>
